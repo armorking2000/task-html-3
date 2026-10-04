@@ -1,140 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>عکاسی</title>
 
     <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
     </style>
-</head>
-<body>
-
-<section>
-    <nav>
-        <ul style="display: flex; gap: 30px;">
-
-            <li><a href="#">معرفی</a></li>
-            <li><a href="#">برنامه</a></li>
-            <li><a href="#sign-up">ثبت نام</a></li>
-
+  </head>
+  <body>
+    <section>
+      <nav>
+        <ul style="display: flex; gap: 30px">
+          <li><a href="#">معرفی</a></li>
+          <li><a href="#">برنامه</a></li>
+          <li><a href="#sign-up">ثبت نام</a></li>
         </ul>
-    </nav>
-</section>
+      </nav>
+    </section>
 
-<br>
+    <br />
 
-<div id="back-to-first">
-    <h1>کارگاه عکاسی</h1>
-    <p>یک روز برای یادگیری عکاسی</p>
-</div>
+    <div id="back-to-first">
+      <h1>کارگاه عکاسی</h1>
+      <p>یک روز برای یادگیری عکاسی</p>
+    </div>
 
-<div>
-    <img src="./assest/mobile.png" alt="camera">
-    <p>تمرین دیدن جزئیات</p>
-</div>
+    <div>
+      <img src="./assest/mobile.png" alt="camera" />
+      <p>تمرین دیدن جزئیات</p>
+    </div>
 
-<hr>
+    <hr />
 
-<section>
-    <h2>چه چیز هایی یاد می گیریم؟</h2>
-    <br>
-    <ul>
-    <li>نور و سایه</li>
-    <li>کادربندی</li>
-    <li>عکاسی از طبیعت</li>
-    </ul>
-</section>
+    <section>
+      <h2>چه چیز هایی یاد می گیریم؟</h2>
+      <br />
+      <ul>
+        <li>نور و سایه</li>
+        <li>کادربندی</li>
+        <li>عکاسی از طبیعت</li>
+      </ul>
+    </section>
 
-<br>
+    <br />
 
-<section>
-<h3 style="size: 20px;">وسایل مورد نیاز</h3>
-<ol>
-    <li>دوربین یا موبایل</li>
-    <li>دفترچه راهنما</li>
-</ol>
-</section>
+    <section>
+      <h3 style="size: 20px">وسایل مورد نیاز</h3>
+      <ol>
+        <li>دوربین یا موبایل</li>
+        <li>دفترچه راهنما</li>
+      </ol>
+    </section>
 
-<br>
+    <br />
 
-<section>
-    <h4 style="size: 30px;">برنامه کارگاه</h4>
-    <table style="text-align: center; width: 50%;">
-        <tr style="height: 30px;">
-            <th style="width: 35%;">مدرس</th>
-            <th>موضوع</th>
-            <th>ساعت</th>
+    <section>
+      <h4 style="size: 30px">برنامه کارگاه</h4>
+      <table style="text-align: center; width: 50%">
+        <tr style="height: 30px">
+          <th style="width: 35%">مدرس</th>
+          <th>موضوع</th>
+          <th>ساعت</th>
         </tr>
 
-        <tr style="height: 30px;">
-            <td>محسن عزیزی</td>
-            <td>نورپردازی</td>
-            <td>9:00</td>
+        <tr style="height: 30px">
+          <td>محسن عزیزی</td>
+          <td>نورپردازی</td>
+          <td>9:00</td>
         </tr>
 
-        <tr style="height: 30px;">
-            <td>سارا احمدی</td>
-            <td>تمرین عملی</td>
-            <td>10:00</td>
+        <tr style="height: 30px">
+          <td>سارا احمدی</td>
+          <td>تمرین عملی</td>
+          <td>10:00</td>
         </tr>
-    </table>
-</section>
+      </table>
+    </section>
 
-<div id="sign-up">
-<h5>ثبت نام</h5>
-</div>
+    <div id="sign-up">
+      <h5>ثبت نام</h5>
+    </div>
 
-<section>
-
-    <form>
-
+    
+      <form>
         <div>
-        <label for="#email">ایمیل:</label>
-        <input type="email" id="email">
+          <label for="email">ایمیل:</label>
+          <input type="email" id="email" required/>
         </div>
-        <br>
+        <br />
         <div>
-            <label for="#password">رمز عبور:</label>
-            <input type="password" id="password">
+          <label for="password">رمز عبور:</label>
+          <input type="password" id="password" required />
         </div>
-        <br>
+        <br />
         <div>
-            <label for="#confirm-password">تکرار رمز عبور:</label>
-            <input type="password" id="confirm-password">
+          <label for="confirm-password">تکرار رمز عبور:</label>
+          <input type="password" id="confirm-password" required />
         </div>
-        <br>
+        <br />
         <div>
-            <label for="#experience">سطح آشنایی:</label>
-            <select name="سطح آشنایی" id="experience">
-                <option value="مبتدی">مبتدی</option>
-                <option value="متوسط">متوسط</option>
-                <option value="پیشرفته">پیشرفته</option>
-            </select>
+          <label for="experience">سطح آشنایی:</label>
+          <select name="سطح آشنایی" id="experience" required>
+            <option value="مبتدی">مبتدی</option>
+            <option value="متوسط">متوسط</option>
+            <option value="پیشرفته">پیشرفته</option>
+          </select>
         </div>
-        <br>
+        <br />
         <div>
-            <label for="#i-am-in">
-                <input type="checkbox" id="i-am-in">
-                من با قوانین کارگاه موافقم
+          <label for="i-am-in">
+            <input type="checkbox" id="i-am-in" required />
+            من با قوانین کارگاه موافقم
+          </label>
+        </div>
+        <br />
+        <div>
+            <label for="submit">
+            <input id="submit" type="submit" value="ثبت کن" />
             </label>
+          
         </div>
-        <br>
-        <div>
-            <input type="submit" value="ثبت کن">
-        </div>
-    </form>
+      </form>
+    
 
-</section>
+    <hr />
 
-<hr>
-
-<a href="#back-to-first">برگرد به اول صفحه</a>
-
-
-</body>
+    <a href="#back-to-first">برگرد به اول صفحه</a>
+  </body>
 </html>
